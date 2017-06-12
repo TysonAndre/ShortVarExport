@@ -4,7 +4,7 @@ namespace ShortVarExport;
 /**
  * See README.md and COPYING for license information.
  * Builds a smaller representation of PHP values, similar to `var_export`, but shorter. The representation is also valid PHP code. Supports PHP 7.0+ (Will work in php5 if you remove scalar type hints and return types)
-This returns arrays formatted with the php 5.4 square bracket syntax.
+ * This returns arrays formatted with the php 5.4 square bracket syntax.
  * self::build($value)` returns arrays formatted with the php 5.4 square bracket syntax.
  * @author Tyson Andre<tysonandre775@hotmail.com>
  * @version 0.0.1
